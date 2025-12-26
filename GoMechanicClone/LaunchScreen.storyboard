@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE storyboard PUBLIC "-//Apple//DTD IB Storyboard XSD 1.0//EN" "http://www.apple.com/DTDs/InterfaceBuilder/IBStoryboard.dtd">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES">
+  <scenes>
+    <!--View Controller-->
+    <scene sceneID="1">
+      <objects>
+        <viewController id="2" sceneMemberID="viewController">
+          <view key="view" contentMode="scaleToFill" id="3">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <subviews>
+              <imageView contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="4">
+                <rect key="frame" x="88" y="200" width="199" height="199"/>
+                <image name="AppIcon-1024"/>
+              </imageView>
+            </subviews>
+            <constraints>
+              <constraint firstItem="4" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" id="5"/>
+              <constraint firstItem="4" firstAttribute="centerY" secondItem="3" secondAttribute="centerY" id="6"/>
+            </constraints>
+          </view>
+        </viewController>
+      </objects>
+    </scene>
+  </scenes>
+</document>

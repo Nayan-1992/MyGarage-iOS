@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 55;
+  objects = {
+    /* Begin PBXBuildFile section */
+    111111111111111111111111 /* GoMechanicCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222222 /* GoMechanicCloneApp.swift */; };
+    111111111111111111111112 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222223 /* ContentView.swift */; };
+    111111111111111111111113 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222224 /* Services/NetworkClient.swift */; };
+    111111111111111111111114 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222225 /* Services/ApiService.swift */; };
+    111111111111111111111115 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222226 /* Models/User.swift */; };
+    111111111111111111111116 /* Workshop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222227 /* Models/Workshop.swift */; };
+    111111111111111111111117 /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222228 /* Models/Booking.swift */; };
+    111111111111111111111118 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222229 /* Managers/AuthManager.swift */; };
+    111111111111111111111119 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222230 /* Views/LoginView.swift */; };
+    111111111111111111111120 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222231 /* Views/HomeView.swift */; };
+    111111111111111111111121 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222232 /* Views/BookingView.swift */; };
+    111111111111111111111122 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222233 /* Views/ProfileView.swift */; };
+    111111111111111111111123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222241 /* Assets.xcassets */; };
+    111111111111111111111124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222242 /* LaunchScreen.storyboard */; };
+    /* End PBXBuildFile section */
+
+    /* Begin PBXFileReference section */
+    222222222222222222222222 /* GoMechanicCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "GoMechanicCloneApp.swift"; path = "GoMechanicClone/GoMechanicCloneApp.swift"; sourceTree = "<group>"; };
+    222222222222222222222223 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ContentView.swift"; path = "GoMechanicClone/ContentView.swift"; sourceTree = "<group>"; };
+    222222222222222222222224 /* Services/NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "NetworkClient.swift"; path = "GoMechanicClone/Services/NetworkClient.swift"; sourceTree = "<group>"; };
+    222222222222222222222225 /* Services/ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ApiService.swift"; path = "GoMechanicClone/Services/ApiService.swift"; sourceTree = "<group>"; };
+    222222222222222222222226 /* Models/User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User.swift"; path = "GoMechanicClone/Models/User.swift"; sourceTree = "<group>"; };
+    222222222222222222222227 /* Models/Workshop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Workshop.swift"; path = "GoMechanicClone/Models/Workshop.swift"; sourceTree = "<group>"; };
+    222222222222222222222228 /* Models/Booking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Booking.swift"; path = "GoMechanicClone/Models/Booking.swift"; sourceTree = "<group>"; };
+    222222222222222222222229 /* Managers/AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AuthManager.swift"; path = "GoMechanicClone/Managers/AuthManager.swift"; sourceTree = "<group>"; };
+    222222222222222222222230 /* Views/LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LoginView.swift"; path = "GoMechanicClone/Views/LoginView.swift"; sourceTree = "<group>"; };
+    222222222222222222222231 /* Views/HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "HomeView.swift"; path = "GoMechanicClone/Views/HomeView.swift"; sourceTree = "<group>"; };
+    222222222222222222222232 /* Views/BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BookingView.swift"; path = "GoMechanicClone/Views/BookingView.swift"; sourceTree = "<group>"; };
+    222222222222222222222233 /* Views/ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ProfileView.swift"; path = "GoMechanicClone/Views/ProfileView.swift"; sourceTree = "<group>"; };
+    222222222222222222222240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "GoMechanicClone/Info.plist"; sourceTree = "<group>"; };
+    222222222222222222222241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "GoMechanicClone/Assets.xcassets"; sourceTree = "<group>"; };
+    222222222222222222222242 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "GoMechanicClone/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+    /* End PBXFileReference section */
+
+    /* Begin PBXSourcesBuildPhase section */
+    333333333333333333333333 /* Sources */ = {
+      isa = PBXSourcesBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+        111111111111111111111111,
+        111111111111111111111112,
+        111111111111111111111113,
+        111111111111111111111114,
+        111111111111111111111115,
+        111111111111111111111116,
+        111111111111111111111117,
+        111111111111111111111118,
+        111111111111111111111119,
+        111111111111111111111120,
+        111111111111111111111121,
+        111111111111111111111122,
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+    444444444444444444444445 /* Resources */ = {
+      isa = PBXResourcesBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+        111111111111111111111123,
+        111111111111111111111124,
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+    /* End PBXSourcesBuildPhase section */
+
+    /* Begin PBXGroup section */
+    444444444444444444444444 = {
+      isa = PBXGroup;
+      children = (
+        222222222222222222222222,
+        222222222222222222222223,
+        222222222222222222222224,
+        222222222222222222222225,
+        222222222222222222222226,
+        222222222222222222222227,
+        222222222222222222222228,
+        222222222222222222222229,
+        222222222222222222222230,
+        222222222222222222222231,
+        222222222222222222222232,
+        222222222222222222222233,
+        222222222222222222222240,
+        222222222222222222222241,
+        222222222222222222222242,
+      );
+      sourceTree = "<group>";
+      name = "GoMechanicClone";
+    };
+    /* End PBXGroup section */
+
+    /* Begin PBXProject section */
+    555555555555555555555555 = {
+      isa = PBXProject;
+      attributes = {
+        LastUpgradeCheck = 1440;
+      };
+      buildConfigurationList = 666666666666666666666666 /* Build configuration list for PBXProject */;
+      compatibilityVersion = "Xcode 14.0";
+      developmentRegion = en;
+      hasScannedForEncodings = 0;
+      mainGroup = 444444444444444444444444;
+      productRefGroup = 777777777777777777777777 /* Products */;
+      projectDirPath = "";
+      projectRoot = "";
+    };
+    /* End PBXProject section */
+
+    /* Begin PBXNativeTarget section */
+    888888888888888888888888 = {
+      isa = PBXNativeTarget;
+      buildConfigurationList = 999999999999999999999999 /* Build configuration list for PBXNativeTarget "GoMechanicClone" */;
+      buildPhases = (
+        333333333333333333333333 /* Sources */,
+        444444444444444444444445 /* Resources */,
+      );
+      buildRules = (
+      );
+      dependencies = (
+      );
+      name = "GoMechanicClone";
+      productName = "GoMechanicClone";
+      productReference = aaaaaaaaaaaaaaaaaaaaaaa /* GoMechanicClone.app */;
+      productType = "com.apple.product-type.application";
+    };
+    /* End PBXNativeTarget section */
+
+    /* Begin PBXBuildConfiguration section */
+    bbbbbbbbbbbbbbbbbbbbbbbb = {
+      isa = PBXBuildConfiguration;
+      buildSettings = {
+        ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+        DEVELOPMENT_TEAM = "";
+        CODE_SIGN_STYLE = Automatic;
+        INFOPLIST_FILE = "GoMechanicClone/Info.plist";
+        PRODUCT_BUNDLE_IDENTIFIER = com.example.GoMechanicClone;
+        PRODUCT_NAME = "$(TARGET_NAME)";
+        SWIFT_VERSION = 5.0;
+        IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+      };
+      name = Debug;
+    };
+    cccccccccccccccccccccccc = {
+      isa = PBXBuildConfiguration;
+      buildSettings = {
+        ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+        DEVELOPMENT_TEAM = "";
+        CODE_SIGN_STYLE = Automatic;
+        INFOPLIST_FILE = "GoMechanicClone/Info.plist";
+        PRODUCT_BUNDLE_IDENTIFIER = com.example.GoMechanicClone;
+        PRODUCT_NAME = "$(TARGET_NAME)";
+        SWIFT_VERSION = 5.0;
+        IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+      };
+      name = Release;
+    };
+    /* End PBXBuildConfiguration section */
+
+    /* Begin XCConfigurationList section */
+    666666666666666666666666 = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        bbbbbbbbbbbbbbbbbbbbbbbb,
+        cccccccccccccccccccccccc,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+    999999999999999999999999 = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        bbbbbbbbbbbbbbbbbbbbbbbb,
+        cccccccccccccccccccccccc,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+    /* End XCConfigurationList section */
+
+    /* Begin PBXVariantGroup section */
+    777777777777777777777777 = {
+      isa = PBXVariantGroup;
+      children = (
+      );
+      sourceTree = "<group>";
+      name = Products;
+    };
+    /* End PBXVariantGroup section */
+
+    /* Begin PBXFileReference for product */
+    aaaaaaaaaaaaaaaaaaaaaaa = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "GoMechanicClone.app"; sourceTree = "BUILT_PRODUCTS_DIR"; };
+    /* End PBXFileReference for product */
+  };
+  rootObject = 555555555555555555555555;
+}
