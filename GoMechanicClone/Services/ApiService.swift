@@ -36,4 +36,12 @@ struct ApiService {
         if let b = r.data { return b }
         throw NetworkError.invalidResponse
     }
+
+    static func registerFcmToken(token: String) async throws {
+        let payload = ["token": token]
+        let body = try JSONEncoder().encode(payload)
+        let _: ApiResponse<EmptyResponse> = try await NetworkClient.shared.request(path: "api/v1/users/register-fcm", method: "POST", body: body)
+    }
 }
+
+struct EmptyResponse: Decodable {}

@@ -19,6 +19,7 @@
     111111111111111111111122 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222233 /* Views/ProfileView.swift */; };
     111111111111111111111123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222241 /* Assets.xcassets */; };
     111111111111111111111124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222242 /* LaunchScreen.storyboard */; };
+    111111111111111111111125 /* GoMechanicClone.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222243 /* GoMechanicClone.entitlements */; };
     /* End PBXBuildFile section */
 
     /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
     222222222222222222222240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "GoMechanicClone/Info.plist"; sourceTree = "<group>"; };
     222222222222222222222241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "GoMechanicClone/Assets.xcassets"; sourceTree = "<group>"; };
     222222222222222222222242 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "GoMechanicClone/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+    222222222222222222222243 /* GoMechanicClone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = GoMechanicClone.entitlements; path = "GoMechanicClone/GoMechanicClone.entitlements"; sourceTree = "<group>"; };
     /* End PBXFileReference section */
 
     /* Begin PBXSourcesBuildPhase section */
@@ -65,6 +67,7 @@
       files = (
         111111111111111111111123,
         111111111111111111111124,
+        111111111111111111111125,
       );
       runOnlyForDeploymentPostprocessing = 0;
     };
@@ -89,6 +92,7 @@
         222222222222222222222240,
         222222222222222222222241,
         222222222222222222222242,
+        222222222222222222222243,
       );
       sourceTree = "<group>";
       name = "GoMechanicClone";
@@ -138,6 +142,7 @@
         ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
         DEVELOPMENT_TEAM = "";
         CODE_SIGN_STYLE = Automatic;
+        CODE_SIGN_ENTITLEMENTS = "GoMechanicClone/GoMechanicClone.entitlements";
         INFOPLIST_FILE = "GoMechanicClone/Info.plist";
         PRODUCT_BUNDLE_IDENTIFIER = com.example.GoMechanicClone;
         PRODUCT_NAME = "$(TARGET_NAME)";
